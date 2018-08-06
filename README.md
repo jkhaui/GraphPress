@@ -1,4 +1,4 @@
-<h1 align="center"><strong>GraphPress: A React Boilerplate Using WordPress as a User Authentication System</strong></h1>
+<h1 align="center"><strong>GraphPress: A GraphQL Boilerplate Using WordPress as a User Authentication System</strong></h1>
 
 <br />
 
