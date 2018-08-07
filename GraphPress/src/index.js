@@ -29,7 +29,7 @@ const middlewareLink = new ApolloLink((operation, forward) => {
 const httpLinkAuth = middlewareLink.concat(httpLink)
 
 const wsLink = new WebSocketLink({
-  uri: `ws://YOURWORDPRESSURL.com`,
+  uri: `ws://YOURWORDPRESSURL.com/graphql`,
   options: {
     reconnect: true,
     connectionParams: {
