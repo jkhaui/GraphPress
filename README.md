@@ -2,7 +2,7 @@
 
 <br />
 
-![](https://s3.amazonaws.com/codelize/GraphPress.png)
+<div align="center">![](https://s3.amazonaws.com/codelize/GraphPress.png)</center>
 
 <div align="center"><strong>Forked from the incredible work of the Apollo & Graphcool teams (https://github.com/graphql-boilerplates/react-fullstack-graphql).</strong></div>
 <div align="center">Taking one of the oldest CMS and combining it with cutting-edge API technology :) For those who want to bootstrap headless WordPress (i.e. using WP as a backend only) with user authentication integrated into a frontend (built with React). I've made some slight changes to this boilerplate to allow you to immediately convert your monolithic WordPress community into a scalable user platform in minutes (without rehiring a new dev team)!</div>
