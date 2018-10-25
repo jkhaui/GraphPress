@@ -4,19 +4,18 @@
 
 <div align="center"><img src="https://s3.amazonaws.com/codelize/GraphPress.png" /></div></center>
 
-<div align="center"><strong>Forked from the incredible work of the Apollo & Graphcool teams (https://github.com/graphql-boilerplates/react-fullstack-graphql).</strong></div>
-<div align="center">Taking one of the oldest CMS and combining it with cutting-edge API technology :) For those who want to bootstrap headless WordPress (i.e. using WP as a backend only) with user authentication integrated into a frontend (built with React). I've made some slight changes to this boilerplate to allow you to immediately convert your monolithic WordPress community into a scalable user platform in minutes (without rehiring a new dev team)!</div>
+<div align="center"><strong>Based off (https://github.com/graphql-boilerplates/react-fullstack-graphql).</strong></div>
+<div align="center">This boilerplate has been slightly modified to integrate with an existing WordPress setup that has both the GraphQL and GraphQL JWT plugins installed. It should work by using the JWTs to authenticate a user's login.</div>
 
 <br />
 
 ## Requirements
 -- Must have an existing WordPress site with WP-GraphQL (https://github.com/wp-graphql/wp-graphql) and WP-GraphQL-JWT-Auth (https://github.com/wp-graphql/wp-graphql-jwt-authentication) plugins installed and activated.
 
-As you may have guessed, this boilerplate uses JSON web tokens for auth.
-
 ## Quickstart
 
-1. CD into folder
-2. yarn install && yarn start
+1. Git clone
+2. Change the URLs in the index.js file (note that there are two URLs to change: 1) the graphQL endpoint and 2) the websockets URL which is ws://yourWPsite.com/graphql 
+3. yarn install && yarn start
 
 **Work in progress.. Next up is integrating feeds from the WordPress API.
