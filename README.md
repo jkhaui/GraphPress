@@ -19,3 +19,5 @@
 3. yarn install && yarn start
 
 **Work in progress.. Next up is integrating feeds from the WordPress API.
+
+**You need a websockets connection for authentication to work. If you are on shared hosting (e.g. GoDaddy), this probably won't work. But there's likely other ways of authenticating without opening a websocket.
