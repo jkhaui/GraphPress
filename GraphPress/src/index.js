@@ -7,10 +7,9 @@ import { getMainDefinition } from 'apollo-utilities'
 import { AUTH_TOKEN } from './constant'
 import RootContainer from './components/RootContainer'
 import { ApolloProvider } from 'react-apollo'
-
-import 'tachyons'
 import './index.css'
 
+// Change the URL to your own WordPress GraphQL endpoint.
 const httpLink = new HttpLink({ uri: 'https://YOURWORDPRESSURL.com/graphql' })
 
 const middlewareLink = new ApolloLink((operation, forward) => {
@@ -29,9 +28,14 @@ const middlewareLink = new ApolloLink((operation, forward) => {
 const httpLinkAuth = middlewareLink.concat(httpLink)
 
 const wsLink = new WebSocketLink({
+  // Enter your URL here (again). Should be the same WordPress URL except with ws:// appended.
   uri: `ws://YOURWORDPRESSURL.com/graphql`,
   options: {
-    reconnect: true,
+    /* Commenting out line below as it causes reconnection errors to be constantly displayed in the the console. Need to find the actual issue
+    and a proper solution for it. */
+  
+    //reconnect: true,
+    
     connectionParams: {
       Authorization: `Bearer ${localStorage.getItem(AUTH_TOKEN)}`,
     },
