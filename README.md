@@ -14,8 +14,8 @@
 
 ## Quickstart
 
-1. Git clone
-2. Change the URLs in the index.js file (note that there are two URLs to change: 1) the graphQL endpoint and 2) the websockets URL which is ws://yourWPsite.com/graphql 
+1. Git clone https://github.com/jkhaui/GraphPress
+2. Change the URLs in the index.js file (note that there are two URLs to change: 1) the graphQL endpoint and 2) the websockets URL (which is ws://yourWPsite.com/graphql).
 3. yarn install && yarn start
 
 **Work in progress.. Next up is integrating feeds from the WordPress API.
