@@ -15,7 +15,7 @@
 ## Quickstart
 
 1. Git clone https://github.com/jkhaui/GraphPress
-2. Change the URLs in the index.js file. There are two URLs to change: 1) the graphQL endpoint <em>(https://yourWPsite.com/graphql)</em>, and 2) the websockets URL <em>(ws://yourWPsite.com/graphql)</em>.
+2. Change the URLs in the index.js file. There are two URLs to change: 1) <strong>the graphQL endpoint</strong> <em>(https://yourWPsite.com/graphql)</em>, and 2) <strong>the websockets URL</strong> <em>(ws://yourWPsite.com/graphql)</em>.
 3. yarn install && yarn start
 
 <br />
