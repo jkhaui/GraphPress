@@ -5,12 +5,12 @@
 <div align="center"><img src="https://s3.amazonaws.com/codelize/GraphPress.png" /></div></center>
 
 <div align="center"><strong>Based off (https://github.com/graphql-boilerplates/react-fullstack-graphql).</strong></div>
-<div align="center">This boilerplate has been slightly modified to integrate with an existing WordPress setup that has both the GraphQL and GraphQL JWT plugins installed. It should work by using the JWTs to authenticate a user's login.</div>
+<div align="center">This boilerplate has been slightly modified to integrate with an existing WordPress setup that has both the GraphQL and GraphQL JWT plugins installed. It works by using JWTs to authenticate users' login.</div>
 
 <br />
 
 ## Requirements
--- Must have an existing WordPress site with WP-GraphQL (https://github.com/wp-graphql/wp-graphql) and WP-GraphQL-JWT-Auth (https://github.com/wp-graphql/wp-graphql-jwt-authentication) plugins installed and activated.
+- Must have an existing WordPress site with the WP GraphQL (https://github.com/wp-graphql/wp-graphql) and WP GraphQL JWT-Auth (https://github.com/wp-graphql/wp-graphql-jwt-authentication) plugins installed and activated.
 
 ## Quickstart
 
@@ -18,6 +18,4 @@
 2. Change the URLs in the index.js file (note that there are two URLs to change: 1) the graphQL endpoint and 2) the websockets URL (which is ws://yourWPsite.com/graphql).
 3. yarn install && yarn start
 
-**Work in progress.. Next up is integrating feeds from the WordPress API.
-
-**You need a websockets connection for authentication to work. If you are on shared hosting (e.g. GoDaddy), this probably won't work. But there's likely other ways of authenticating without opening a websocket.
+**Work in progress.. Working on a much larger boilerplate which authenticates users and queries large amounts of data from a GraphQL API.
