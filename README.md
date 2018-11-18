@@ -10,7 +10,7 @@
 <br />
 
 ## Requirements
-- Must have an existing WordPress site with the WP GraphQL (https://github.com/wp-graphql/wp-graphql) and WP GraphQL JWT-Auth (https://github.com/wp-graphql/wp-graphql-jwt-authentication) plugins installed and activated.
+- Must have an existing WordPress site with the <strong>WP GraphQL</strong> <em>(https://github.com/wp-graphql/wp-graphql)</em> and <strong>WP GraphQL JWT-Auth</strong> <em>(https://github.com/wp-graphql/wp-graphql-jwt-authentication)</em> plugins installed and activated.
 
 ## Quickstart
 
