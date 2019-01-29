@@ -2,7 +2,7 @@
 
 <br />
 
-<div align="center"><img src="https://s3.amazonaws.com/codelize/GraphPress.png" /></div></center>
+<div align="center"><img src="https://s3.amazonaws.com/codelize/GraphPress.png" /></div>
 
 <div align="center"><strong>Based off (https://github.com/graphql-boilerplates/react-fullstack-graphql).</strong></div>
 <div align="center">This boilerplate has been slightly modified to integrate with an existing WordPress setup that has both the GraphQL and GraphQL JWT plugins installed. It works by using JWTs to authenticate users' login.</div>
